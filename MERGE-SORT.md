@@ -40,3 +40,16 @@ define merge(left, right)
 ### Visualization
 
 ![Merge Sort](./merge-sort.png 'Merge Sort')
+
+## Merge Sort is a stable sorting algorithm
+
+A stable sorting algorithm maintains the relative order of the items with equal sort keys. An unstable sorting algorithm does not. In other words, when a collection is sorted with a stable sorting algorithm, items with the same sort keys preserve their order after the collection is sorted.
+
+## When to use Merge Sort
+
+- When sorting linked lists
+- When you need a stable sorting algorithm
+- When you need a sorting algorithm that is guaranteed to be O(n log n)
+- When you need a sorting algorithm that is guaranteed to be O(n log n) in the worst case
+
+> Note: Merge sort requires extra space to store the temporary arrays. It is not an in-place sorting algorithm.
