@@ -1,4 +1,4 @@
-// Merge Sort
+// Merge Sort - O(n log n)
 function mergeSort(array) {
   if (array.length <= 1) {
     return array
