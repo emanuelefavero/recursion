@@ -1,4 +1,5 @@
 // Merge Sort is a Divide and Conquer algorithm that uses recursion. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
+// O(n log n) time complexity
 function mergeSort(array) {
   // 1. return the array if it has only one element
   if (array.length <= 1) {

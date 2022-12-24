@@ -2,6 +2,16 @@
 
 Merge sort is a sorting algorithm that uses the divide and conquer approach and recursion. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. The merge() function is used for merging two halves. The merge(arr, l, m, r) is key process that assumes that arr[l..m] and arr[m+1..r] are sorted and merges the two sorted sub-arrays into one.
 
+### Time Complexity
+
+- Worst Case: O(n log n)
+- Best Case: O(n log n)
+- Average Case: O(n log n)
+
+### Space Complexity
+
+- Worst Case: O(n)
+
 ## Pseudocode
 
 ```js
@@ -26,3 +36,7 @@ define merge(left, right)
 
   return sorted array plus remaining elements of left and right
 ```
+
+### Visualization
+
+![Merge Sort](./merge-sort.png 'Merge Sort')
